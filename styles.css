@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.container{
+    background-color: rgb(218, 216, 216);
+    width: 800px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.bt1{
+    background-color: white;
+    border-radius: 5%;
+    margin-left:10px;   
+}
+.bt2{
+    background-color: white;
+    border-radius: 5%;
+}
+.bt3{
+    background-color: white;
+    border-radius: 5%;
+}
+.bt4{
+    background-color: white;
+    border-radius: 5%;
+}
+.bt5{
+    background-color: white;
+    border-radius: 5%;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 12px;
+}
+.images{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
+    margin-left: 10px;
+    font-size: small;
+}
+.song1{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
+    margin-left: 10px;
+    font-size: small;
+}
+.song2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.tv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
+    margin-left: 10px;
+    font-size: small;
+}
+.song3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 60px;
+    height: 50px;
+    margin-right: 130px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
